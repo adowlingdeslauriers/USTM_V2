@@ -1,0 +1,175 @@
+{
+    "default_date": "2022-05-27",
+    "default_BoL": "4295608",
+    "default_PAPS": "001696",
+    "default_SCAC": "TAIW",
+    "default_email_subject": "Stalco Run",
+    "FDA_Master_file_default_sku_name_column": 51,
+    "XLSX_Report_ORDERID_column_name": "Pick Order",
+    "XLSX_Report_client_name_column_name": "Client Name",
+    "XLSX_Report_carrier_column_name": "Carrier",
+    "XLSX_Report_ship_date_column_name": "Ship Date",
+    "XLSX_Report_tracking_number_column_name": "Tracking Number",
+    "BATCHES_SCANS_batch_column_name": "Batch",
+    "BATCHES_SCANS_gaylord_column_name": "Gaylord",
+    "Detailed_Report_scan_sheet_name": "Scan Here",
+    "Detailed_Report_batch_column_name": "#Batch",
+    "Detailed_Report_gaylord_column_name": "#Gaylord",
+    "default_email_message": "Morning\n\nPlease see attached paperwork for today\nPickup is available 9am next business day\nDHL DSMs have been attached to G",
+    "_comment1": "cleanCommoditiesList() matches the dict's Value and converts that item's quantity to the Key's quantity. Super bad coding practise but it works and is easy enough for a novice to add given appropriate instruction",
+    "_comment2": "Left: product to be converted to. Right: Product to be converted from",
+    "commodity_conversions": {
+        "Eye Renew 0.5 fl oz Skin Care": "BDRx Kit",
+        "Flawless Face 2 fl oz": "BDRx Kit",
+        "Instalift 0.5 fl oz": "BDRx Kit",
+        "Tevida 60 caps - US": "Tevida",
+        "Vascular X 60 caps - US": "Vascular X",
+        "Age Defy Clear Bottles 1 fl oz": "Age Defy - Kit",
+        "US SciMar NuPa Daily": "680243764763"
+    },
+    "USPS_carriers_names": [
+        "EHUB"
+    ],
+    "DHL_carriers_names": [
+        "DHLGLOBALMAIL",
+        "DHLGLOBALMAILV4"
+    ],
+    "FEDEX_carriers_names": [
+        "FEDEX"
+    ],
+    "warnable_clients": [],
+    "us_dhl_split_ticket_clients": [
+        "LUS Brands",
+        "HOLOS Foods Inc.",
+        "HOLOS Foods Inc",
+        "Holos Food Inc"
+    ],
+    "shipper_profiles": {
+        "Stalco": {
+            "name": "Stalco",
+            "shipper": {
+                "name": "Stalco Inc.",
+                "address": {
+                    "addressLine": "401 Clayson Road",
+                    "country": "CA",
+                    "city": "Toronto",
+                    "stateProvince": "ON",
+                    "postalCode": "M9M2H4"
+                }
+            },
+            "_note": "Via Tri-Ad",
+            "SCAC": "TAIW",
+            "email_list": [
+                "chris@stalco.ca",
+                "naseer@stalco.ca",
+                "diana@stalco.ca",
+                "lorne@stalco.ca",
+                "james@stalco.ca",
+                "alex@stalco.ca",
+                "simranjit@stalco.ca",
+                "TLCUS@tri-ad.ca",
+                "exports@tri-ad.ca",
+                "lcollier@tri-ad.ca",
+                "dcox@tri-ad.ca",
+                "bayotte@tri-ad.ca",
+                "mAyotte@tri-ad.ca",
+                "slima@tri-ad.ca",
+                "mcole@IMSDirect.com",
+                "SSchiano@imsdirect.com",
+                "dcrocker@IMSDirect.com",
+                "jjohnson@imsdirect.com",
+                "release@cbcustomsbrokerage.com",
+                "lory@stalco.ca"
+            ]
+        },
+        "Stalco (via AmeriConnect)": {
+            "name": "Stalco (via AmeriConnect)",
+            "shipper": {
+                "name": "Stalco Inc.",
+                "address": {
+                    "addressLine": "401 Clayson Road",
+                    "country": "CA",
+                    "city": "Toronto",
+                    "stateProvince": "ON",
+                    "postalCode": "M9M2H4"
+                }
+            },
+            "_note": "Via AmeriConnect",
+            "SCAC": "AMCR",
+            "email_list": [
+                "chris@stalco.ca",
+                "naseer@stalco.ca",
+                "diana@stalco.ca",
+                "lorne@stalco.ca",
+                "james@stalco.ca",
+                "alex@stalco.ca",
+                "simranjit@stalco.ca",
+                "mcole@IMSDirect.com",
+                "SSchiano@imsdirect.com",
+                "dcrocker@IMSDirect.com",
+                "jjohnson@imsdirect.com",
+                "release@cbcustomsbrokerage.com",
+                "dthompson@ameri-connect.com",
+                "anayel@ameri-connect.com",
+                "jthistle@ameri-connect.com",
+                "lory@stalco.ca"
+            ]
+        },
+        "Ekomlita": {
+            "name": "Ekomlita",
+            "shipper": {
+                "name": "JSC Ekomlita C/O Stalco Inc.",
+                "address": {
+                    "addressLine": "PO Box 1126",
+                    "country": "CA",
+                    "city": "North York",
+                    "stateProvince": "ON",
+                    "postalCode": "M3J0R2"
+                }
+            },
+            "_note": "Via Tri-Ad",
+            "SCAC": "TAIW",
+            "email_list": [
+                "chris@stalco.ca",
+                "naseer@stalco.ca",
+                "diana@stalco.ca",
+                "lorne@stalco.ca",
+                "james@stalco.ca",
+                "alex@stalco.ca",
+                "simranjit@stalco.ca",
+                "TLCUS@tri-ad.ca",
+                "exports@tri-ad.ca",
+                "lcollier@tri-ad.ca",
+                "dcox@tri-ad.ca",
+                "bayotte@tri-ad.ca",
+                "mAyotte@tri-ad.ca",
+                "slima@tri-ad.ca",
+                "mcole@IMSDirect.com",
+                "SSchiano@imsdirect.com",
+                "dcrocker@IMSDirect.com",
+                "jjohnson@imsdirect.com",
+                "release@cbcustomsbrokerage.com",
+                "lory@stalco.ca"
+            ]
+        }
+    },
+    "_comment3": "Field \"description\" must exactly match text from ACE Manifest",
+    "SKUs_blacklist": [
+        {
+            "description": "Tvidler Spiral Cleaner Set",
+            "carriers": [
+                "Stalco",
+                "Stalco (via AmeriConnect)"
+            ],
+            "actions": [
+                {
+                    "type": "do_not_ship"
+                },
+                {
+                    "type": "error_box",
+                    "message": "TVidler found in ACE\nTrip generation cancelled\nPlease re-run with Ekomlita selected as shipper"
+                }
+            ]
+        }
+    ]
+}
