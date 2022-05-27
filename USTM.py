@@ -8,6 +8,8 @@
 -SCNs Duplicate Remover
 -Stop it from crashing hard when there are gaylord conflicts
 
+-test
+
 -Add version designators for ACEs
 -blacklist tvidler
 -remake exe
